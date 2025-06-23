@@ -1,0 +1,32 @@
+# Requirements for ideatrix Assessment
+# Data Scientist Intern Take-Home Assessment
+# LLM-Based Reasoning Systems with MCTS and Cognitive Enhancement
+
+# Core Python packages (usually included in standard Python)
+# No external API dependencies required
+
+# Optional visualization dependencies
+matplotlib>=3.5.0
+numpy>=1.21.0
+
+# Note: All core functionality works without external dependencies
+# The implementations use only Python standard library:
+# - typing (type hints)
+# - dataclasses (data structures)
+# - enum (enumerations)
+# - json (data serialization)
+# - time (timing measurements)
+# - random (randomization)
+# - math (mathematical operations)
+# - itertools (iteration utilities)
+# - collections (specialized containers)
+
+# For enhanced visualization (optional):
+# matplotlib - creates performance charts and research analysis plots
+# numpy - statistical calculations and array operations
+
+# Installation:
+# pip install -r requirements.txt
+
+# Or minimal installation (visualization disabled):
+# No installation required - uses Python standard library only

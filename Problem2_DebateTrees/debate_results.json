@@ -1,0 +1,250 @@
+{
+  "topic": "Universal Basic Income should be implemented globally",
+  "baseline_results": {
+    "topic": "Universal Basic Income should be implemented globally",
+    "avg_pro_score": 0.7043011040756499,
+    "avg_con_score": 0.8268700853514892,
+    "winner": "CON",
+    "transcript": [
+      {
+        "round": 1,
+        "agent": "ProAdvocate_Baseline",
+        "position": "PRO",
+        "argument": "The pro position on Universal Basic Income should be implemented globally is supported by several key factors.",
+        "score": 0.7043011040756499,
+        "tree_depth": 3,
+        "cognitive_mode": "BASELINE"
+      },
+      {
+        "round": 1,
+        "agent": "ConDefender_Baseline",
+        "position": "CON",
+        "argument": "This is a con argument about Universal Basic Income should be implemented globally with evidence and reasoning.",
+        "score": 0.8268700853514892,
+        "tree_depth": 3,
+        "cognitive_mode": "BASELINE"
+      }
+    ],
+    "total_llm_calls": 82,
+    "pro_cognitive_mode": "BASELINE",
+    "con_cognitive_mode": "BASELINE"
+  },
+  "enhanced_results": {
+    "topic": "Universal Basic Income should be implemented globally",
+    "avg_pro_score": 0.9478157684256224,
+    "avg_con_score": 1.0,
+    "winner": "CON",
+    "transcript": [
+      {
+        "round": 1,
+        "agent": "ProAdvocate_ToM",
+        "position": "PRO",
+        "argument": "The pro position on Universal Basic Income should be implemented globally is supported by several key factors. The empirical data strongly supports this position. Critics often cherry-pick data, but comprehensive meta-analyses support this position. This approach addresses the fundamental concerns that reasonable people share about this issue.",
+        "score": 0.9478157684256224,
+        "tree_depth": 3,
+        "cognitive_mode": "THEORY_OF_MIND"
+      },
+      {
+        "round": 1,
+        "agent": "ConDefender_ToM",
+        "position": "CON",
+        "argument": "The con position on Universal Basic Income should be implemented globally is supported by several key factors. This approach addresses the fundamental concerns that reasonable people share about this issue.",
+        "score": 1.0,
+        "tree_depth": 3,
+        "cognitive_mode": "THEORY_OF_MIND"
+      }
+    ],
+    "total_llm_calls": 82,
+    "pro_cognitive_mode": "THEORY_OF_MIND",
+    "con_cognitive_mode": "THEORY_OF_MIND"
+  },
+  "comparative_study": {
+    "baseline_avg_score": 0.8322636749609849,
+    "enhanced_avg_score": 0.9688413217195221,
+    "improvement_percentage": 16.410381813785126,
+    "enhanced_win_rate": 100.0,
+    "study_results": {
+      "baseline_vs_baseline": [
+        {
+          "topic": "Universal Basic Income should be implemented globally",
+          "avg_pro_score": 0.7671274658653902,
+          "avg_con_score": 0.8151409434780614,
+          "winner": "TIE",
+          "transcript": [
+            {
+              "round": 1,
+              "agent": "Agent_Pro_Baseline",
+              "position": "PRO",
+              "argument": "The pro position on Universal Basic Income should be implemented globally is supported by several key factors. The empirical data strongly supports this position.",
+              "score": 0.7671274658653902,
+              "tree_depth": 3,
+              "cognitive_mode": "BASELINE"
+            },
+            {
+              "round": 1,
+              "agent": "Agent_Con_Baseline",
+              "position": "CON",
+              "argument": "The con position on Universal Basic Income should be implemented globally is supported by several key factors. The empirical data strongly supports this position.",
+              "score": 0.8151409434780614,
+              "tree_depth": 3,
+              "cognitive_mode": "BASELINE"
+            }
+          ],
+          "total_llm_calls": 82,
+          "pro_cognitive_mode": "BASELINE",
+          "con_cognitive_mode": "BASELINE"
+        },
+        {
+          "topic": "Universal Basic Income should be implemented globally",
+          "avg_pro_score": 0.817999526137815,
+          "avg_con_score": 0.928786764362673,
+          "winner": "CON",
+          "transcript": [
+            {
+              "round": 1,
+              "agent": "Agent_Pro_Baseline",
+              "position": "PRO",
+              "argument": "From a pro perspective, Universal Basic Income should be implemented globally presents important considerations.",
+              "score": 0.817999526137815,
+              "tree_depth": 3,
+              "cognitive_mode": "BASELINE"
+            },
+            {
+              "round": 1,
+              "agent": "Agent_Con_Baseline",
+              "position": "CON",
+              "argument": "From a con perspective, Universal Basic Income should be implemented globally presents important considerations.",
+              "score": 0.928786764362673,
+              "tree_depth": 3,
+              "cognitive_mode": "BASELINE"
+            }
+          ],
+          "total_llm_calls": 82,
+          "pro_cognitive_mode": "BASELINE",
+          "con_cognitive_mode": "BASELINE"
+        }
+      ],
+      "enhanced_vs_baseline": [
+        {
+          "topic": "Universal Basic Income should be implemented globally",
+          "avg_pro_score": 0.9541492437554979,
+          "avg_con_score": 0.8845953114423226,
+          "winner": "PRO",
+          "transcript": [
+            {
+              "round": 1,
+              "agent": "Agent_Pro_ToM",
+              "position": "PRO",
+              "argument": "The pro position on Universal Basic Income should be implemented globally is supported by several key factors. This approach addresses the fundamental concerns that reasonable people share about this issue.",
+              "score": 0.9541492437554979,
+              "tree_depth": 3,
+              "cognitive_mode": "THEORY_OF_MIND"
+            },
+            {
+              "round": 1,
+              "agent": "Agent_Con_Baseline",
+              "position": "CON",
+              "argument": "From a con perspective, Universal Basic Income should be implemented globally presents important considerations.",
+              "score": 0.8845953114423226,
+              "tree_depth": 3,
+              "cognitive_mode": "BASELINE"
+            }
+          ],
+          "total_llm_calls": 82,
+          "pro_cognitive_mode": "THEORY_OF_MIND",
+          "con_cognitive_mode": "BASELINE"
+        },
+        {
+          "topic": "Universal Basic Income should be implemented globally",
+          "avg_pro_score": 0.8974968552264733,
+          "avg_con_score": 0.7710788225416276,
+          "winner": "PRO",
+          "transcript": [
+            {
+              "round": 1,
+              "agent": "Agent_Pro_ToM",
+              "position": "PRO",
+              "argument": "From a pro perspective, Universal Basic Income should be implemented globally presents important considerations. The empirical data strongly supports this position. Critics often cherry-pick data, but comprehensive meta-analyses support this position. This approach addresses the fundamental concerns that reasonable people share about this issue.",
+              "score": 0.8974968552264733,
+              "tree_depth": 3,
+              "cognitive_mode": "THEORY_OF_MIND"
+            },
+            {
+              "round": 1,
+              "agent": "Agent_Con_Baseline",
+              "position": "CON",
+              "argument": "The con position on Universal Basic Income should be implemented globally is supported by several key factors.",
+              "score": 0.7710788225416276,
+              "tree_depth": 3,
+              "cognitive_mode": "BASELINE"
+            }
+          ],
+          "total_llm_calls": 82,
+          "pro_cognitive_mode": "THEORY_OF_MIND",
+          "con_cognitive_mode": "BASELINE"
+        }
+      ],
+      "enhanced_vs_enhanced": [
+        {
+          "topic": "Universal Basic Income should be implemented globally",
+          "avg_pro_score": 1.0,
+          "avg_con_score": 1.0,
+          "winner": "TIE",
+          "transcript": [
+            {
+              "round": 1,
+              "agent": "Agent_Pro_ToM",
+              "position": "PRO",
+              "argument": "This is a pro argument about Universal Basic Income should be implemented globally with evidence and reasoning. The empirical data strongly supports this position. Critics often cherry-pick data, but comprehensive meta-analyses support this position. This approach addresses the fundamental concerns that reasonable people share about this issue.",
+              "score": 1.0,
+              "tree_depth": 3,
+              "cognitive_mode": "THEORY_OF_MIND"
+            },
+            {
+              "round": 1,
+              "agent": "Agent_Con_ToM",
+              "position": "CON",
+              "argument": "The con position on Universal Basic Income should be implemented globally is supported by several key factors. The empirical data strongly supports this position. Critics often cherry-pick data, but comprehensive meta-analyses support this position. This approach addresses the fundamental concerns that reasonable people share about this issue.",
+              "score": 1.0,
+              "tree_depth": 3,
+              "cognitive_mode": "THEORY_OF_MIND"
+            }
+          ],
+          "total_llm_calls": 82,
+          "pro_cognitive_mode": "THEORY_OF_MIND",
+          "con_cognitive_mode": "THEORY_OF_MIND"
+        },
+        {
+          "topic": "Universal Basic Income should be implemented globally",
+          "avg_pro_score": 0.9614018313351618,
+          "avg_con_score": 1.0,
+          "winner": "TIE",
+          "transcript": [
+            {
+              "round": 1,
+              "agent": "Agent_Pro_ToM",
+              "position": "PRO",
+              "argument": "From a pro perspective, Universal Basic Income should be implemented globally presents important considerations. This approach addresses the fundamental concerns that reasonable people share about this issue.",
+              "score": 0.9614018313351618,
+              "tree_depth": 3,
+              "cognitive_mode": "THEORY_OF_MIND"
+            },
+            {
+              "round": 1,
+              "agent": "Agent_Con_ToM",
+              "position": "CON",
+              "argument": "The con position on Universal Basic Income should be implemented globally is supported by several key factors. The empirical data strongly supports this position. Critics often cherry-pick data, but comprehensive meta-analyses support this position. This approach addresses the fundamental concerns that reasonable people share about this issue.",
+              "score": 1.0,
+              "tree_depth": 3,
+              "cognitive_mode": "THEORY_OF_MIND"
+            }
+          ],
+          "total_llm_calls": 82,
+          "pro_cognitive_mode": "THEORY_OF_MIND",
+          "con_cognitive_mode": "THEORY_OF_MIND"
+        }
+      ]
+    }
+  },
+  "improvement_percentage": 27.210842384930427
+}
